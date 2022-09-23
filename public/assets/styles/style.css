@@ -1,0 +1,170 @@
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: #9e9bff;
+    /*text-decoration: underline;*/
+}
+
+.blue {
+    background-color: #0b6568;
+    color: white;
+}
+
+.price {
+    font-size: 1.1rem;
+}
+
+#purchase-options {
+
+}
+
+#admin-nav li:hover {
+    background-color: #0b6568;
+}
+
+#admin-nav li {
+    font-size: 1.7rem;
+}
+
+#admin-nav {
+    width: 100%;
+    padding-left: 0;
+    /*height: 100vh;*/
+}
+
+#admin-nav li {
+    cursor: pointer;
+}
+
+#product-edit {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 999;
+    width: 30%;
+}
+
+.popup {
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+.cart-info {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 999;
+    width: 30%;
+    border: solid;
+    background-color: rgba(33, 37, 41, 0.8);
+    color: white;
+}
+
+
+.cart-button {
+    background-color: #0b6568;
+    color: white;
+    font-size: 1.2rem;
+}
+
+#close{
+    display: block;
+    margin:  0 0 20px auto;
+    background-color: transparent;
+    font-size: 30px;
+    color: #ffffff;
+    background: #212529;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.close{
+    display: block;
+    margin:  0 0 0px auto;
+    background-color: transparent;
+    font-size: 30px;
+    color: #ffffff;
+    /*background: #212529;*/
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.thumb-image {
+    width: 125px;
+}
+
+.btn {
+    /*margin-top: 10px;*/
+}
+
+#cart-error {
+    font-size: 3rem;
+}
+
+.top-gap {
+    margin-top: 30px;
+}
+
+.bottom-gap {
+    margin-bottom: 40px;
+}
+
+.product-card {
+    min-height: 96px;
+}
+
+.lone-form {
+    margin-top: 40px;
+}
+
+main {
+    min-height: 100vh;
+}
+
+#edit-form {
+    width: 30%;
+}
+
+textarea {
+    resize: none;
+}
+
+.hidden {
+    display: none;
+}
+
+#display-msg {
+    position: fixed;
+    min-width: 200px;
+    min-height: 100px;
+    padding: 0.5em;
+    border-radius: 10px;
+    background-color:rgba(111,111,111,0.5);
+    color: white;
+    z-index: 997;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 2rem;
+    cursor: pointer;
+}
+
